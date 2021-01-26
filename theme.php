@@ -1,7 +1,7 @@
 <?php global $Wcms ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,7 +31,7 @@
 	<?= $Wcms->alerts() ?>
 	<?= $Wcms->url() ?>">
 	<?= $Wcms->siteTitle() ?>
-	<?= $Wcms->get('config','siteTitle') ?>
+	
 	<?= $Wcms->page('content') ?>
 	
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
